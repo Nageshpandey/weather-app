@@ -1,0 +1,42 @@
+/* css for search  */
+#main-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+ }
+ #box{
+  display: flex;
+  flex-direction: column;
+ margin-top: -400px;
+ 
+ }
+ #separator{
+   width: 1px solid white;
+   height: 370px;
+   border: 1px solid white;
+   position: relative;
+   top: -110px;
+ }
+ #standard-basic{
+  width: 400px;
+  background-color: #0707075e;
+  font-weight: lighter;
+  color:white;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-size: 3ch;
+  padding-left: 20px;
+ }
+ #searchicon{
+   font-size: 3ch;
+   color: white;
+   z-index: 1;
+   position: relative;
+   left:370px;
+   top: 56px;
+ }
+ #btn{
+  margin-top: 5px;
+  background-color: rgba(67, 67, 204, 0.849);
+ }
